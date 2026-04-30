@@ -184,4 +184,4 @@ contract GatekeeperOneAttacker {
 * * * * *
 
 ### Learning Image from claude: 
-![Gatekeeper](./images/Level13_Notes.png)
+![Gatekeeper](../Notes/images/Level13_Notes.png)
