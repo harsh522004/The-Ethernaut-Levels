@@ -2,14 +2,13 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
-import "../src/Attacker.sol";
+import "../src/GatekeeperTwoAttacker.sol";
 import "../src/GatekeeperTwo.sol";
-
 
 contract GateKeeperTwoTest is Test {
     GatekeeperTwo public gateKeeper;
     Attacker public attacker;
-    
+
     address public PLAYER = makeAddr("player");
 
     function setUp() public {
@@ -18,12 +17,12 @@ contract GateKeeperTwoTest is Test {
 
     function testExploit() public {
         // Arrange
-        vm.prank(PLAYER , PLAYER);
+        vm.prank(PLAYER, PLAYER);
 
-        // Act 
+        // Act
         attacker = new Attacker(address(gateKeeper));
 
         // assert
-        assertEq(gateKeeper.entrant() , PLAYER);
+        assertEq(gateKeeper.entrant(), PLAYER);
     }
 }

@@ -1,0 +1,47 @@
+{
+  "transactions": [
+    {
+      "hash": "0x3e99d51b4f51e3bb1ce6ca153ac4d9de5c4e50ca93e128225dd355de97872806",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xa39be44c156edc3d16e1d80545f3f39e3d36e3f5",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "from": "0xf9bff54db3cc429d98dd4b1b66d12f3d648c2b0a",
+        "to": "0xa39be44c156edc3d16e1d80545f3f39e3d36e3f5",
+        "gas": "0x986e",
+        "value": "0x0",
+        "input": "0x00f55d9d000000000000000000000000f9bff54db3cc429d98dd4b1b66d12f3d648c2b0a",
+        "nonce": "0xbc",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x15deae2",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x3e99d51b4f51e3bb1ce6ca153ac4d9de5c4e50ca93e128225dd355de97872806",
+      "transactionIndex": "0xde",
+      "blockHash": "0x63a814c6a3e2ada3a0c661116530e86475d35f0d70668557124c7df78a4f89db",
+      "blockNumber": "0xa7dc55",
+      "gasUsed": "0x683a",
+      "effectiveGasPrice": "0x3f915198e",
+      "from": "0xf9bff54db3cc429d98dd4b1b66d12f3d648c2b0a",
+      "to": "0xa39be44c156edc3d16e1d80545f3f39e3d36e3f5",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1780736281740,
+  "chain": 11155111,
+  "commit": "0ff61fa"
+}
